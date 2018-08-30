@@ -5,7 +5,7 @@ from tkinter import scrolledtext
 
 
 root = Tk(className="Ashraf personal text editor")
-root.geometry("600x600")
+root.geometry("800x800")
 textPad = scrolledtext.ScrolledText(root, width=100, height=100)
 
 #create menu function for each menu item
